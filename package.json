@@ -10,8 +10,8 @@
   "author": "Yigid BALABAN <fyb@fybx.dev>",
   "license": "LGPL-2.0-only",
   "dependencies": {
-    "elliptic": "^6.5.7",
-    "web-bip39": "^0.0.3"
+    "@scure/bip39": "^1.4.0",
+    "elliptic": "^6.5.7"
   },
   "devDependencies": {
     "terser-webpack-plugin": "^5.3.10",

@@ -1,8 +1,8 @@
 import {
   generateMnemonic as generateMnemonic_bip39,
   mnemonicToSeed
-} from "web-bip39";
-import wordlist from "web-bip39/wordlists/english";
+} from "@scure/bip39";
+import { wordlist } from "@scure/bip39/wordlists/english";
 import elliptic from "elliptic";
 import { Key } from "./key";
 
