@@ -4,7 +4,7 @@ import {
 } from "@scure/bip39";
 import { wordlist } from "@scure/bip39/wordlists/english";
 import elliptic from "elliptic";
-import { Key } from "./key";
+import { Key } from "./key.js";
 
 const MNEMONIC_STRENGTH = 192;
 //const CURVE = "curve25519"

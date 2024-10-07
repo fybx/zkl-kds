@@ -1,4 +1,4 @@
-import { generateKeypair } from "./key-derivation.js";
+import { generateKeypair } from "../key-derivation.js";
 
 (async () => {
   console.log("start");

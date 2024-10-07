@@ -1,9 +1,13 @@
-const path = require("path");
-const webpack = require("webpack");
-const TerserPlugin = require("terser-webpack-plugin");
+import path from "path";
+import { fileURLToPath } from "url";
+import webpack from "webpack";
+import TerserPlugin from "terser-webpack-plugin";
 
-module.exports = {
-  entry: "./index.js",
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+export default {
+  entry: "./dist/index.js",
   output: {
     filename: "bundle.js",
     path: path.resolve(__dirname, "dist")
