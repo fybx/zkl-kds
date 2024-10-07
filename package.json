@@ -1,6 +1,6 @@
 {
   "name": "@zklx/kds",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "zk-Lokomotive key derivation service",
   "main": "index.js",
   "type": "module",
