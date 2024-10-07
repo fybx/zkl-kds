@@ -1,12 +1,12 @@
 {
-  "name": "zkl-kds",
+  "name": "@zklx/kds",
   "version": "1.0.0",
-  "description": "",
+  "description": "zk-Lokomotive key derivation service",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["cryptography", "zero knowledge", "elliptic"],
   "author": "Yigid BALABAN <fyb@fybx.dev>",
   "license": "LGPL-2.0-only",
   "dependencies": {
